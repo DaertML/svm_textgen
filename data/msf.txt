@@ -1,0 +1,16 @@
+Q: Search for module:
+A: msf > search [regex]
+Q: Specify and exploit to use:
+A: msf > use exploit/[ExploitPath]
+Q: Specify a Payload to use:
+A: msf > set PAYLOAD [PayloadPath]
+Q: Show options for the current modules:
+A: msf > show options
+Q: Start exploit:
+A: msf > exploit 
+Q: Port Scanner:
+A: msf > use auxiliary/scanner/portscan/tcp; msf > set RHOSTS 10.10.10.0/24 ; msf > run
+Q: Kill a job:
+A: msf > jobs –k [JobID]
+Q: List all backgrounded sessions:
+A: msf > sessions -l
